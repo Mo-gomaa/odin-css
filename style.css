@@ -184,6 +184,8 @@ div.quote-container div.thor {
 section.four {
   padding: 0 18vw;
   margin: 5rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 section.four button {
