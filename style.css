@@ -208,3 +208,10 @@ div.cta-text {
 div.button-container {
   flex: 1;
 }
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 1.25rem 0;
+  color: #e5e7eb;
+}
