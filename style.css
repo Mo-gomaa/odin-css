@@ -13,6 +13,15 @@
   }
 }
 
+/* unfinished 
+@media screen and (min-width: 1600px) {
+  section.one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+*/
+
 :root {
   font-family: sans-serif;
   font-size: 16px;
@@ -24,7 +33,6 @@ header {
   display: flex;
   flex-direction: row;
   padding: 2rem 0;
-  position: fixed;
   margin: 0;
   width: 100vw;
 }
@@ -47,7 +55,8 @@ ul {
   margin-left: auto;
   padding: 0;
   margin-left: 20vw;
-  width: 50vw;
+  margin-right: 5vw;
+  width: 55vw;
 }
 
 li {
@@ -57,3 +66,59 @@ li {
   text-align: center;
   padding: 0 1rem;
 }
+
+/* Add section 1 in the page */
+button {
+  text-transform: capitalize;
+  border-radius: 0.75rem;
+  padding: 0.7rem 2rem;
+  border: none;
+}
+
+section.one {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f2937;
+  padding: 10vw;
+}
+section > div {
+  flex: 1;
+  width: 40vw;
+}
+
+h2.main {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+div.holder-text {
+  background-color: rgb(40, 54, 66);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+div.holder-text > p {
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+section p {
+  color: #e5e7eb;
+  font-size: 1.5rem;
+}
+
+button.blue {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+/* 
+bug:
+
+I want to make the flex difrection be column wehnever the device width is less than
+ 1600px */
